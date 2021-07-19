@@ -1,6 +1,9 @@
 <?php
 class Arrangeall{
 
+    /**
+     * take given array and arrange pair to pair the first and last element of the array
+     */
     public static function arrangePair(array $_paramsNumbers)
     {
         $tmp_array = [];
@@ -27,11 +30,8 @@ class Arrangeall{
         return $results;
 
     }
-     
-    
-
 }
-//
-// $number = [1, 2, 3, 4, 7, 5, 1, 6, 7, 88888];
+
+// test function'
 $number = [1, 2, 3, 4, 5, 6, 7];
 Arrangeall::arrangePair($number);
